@@ -16,3 +16,7 @@ class TestDemo():
         elif 'Dev' in env:
             print("这是开发环境")
             print(env["Dev"])
+    assert 1 == 1
+
+if __name__ == '__main__':
+    pytest.main(['test_data.py'])
